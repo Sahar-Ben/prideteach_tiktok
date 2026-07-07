@@ -23,7 +23,7 @@
 <div id="moveModal" class="modal"><div class="modalBox"><h3>Move to waiting list?</h3><p id="moveText"></p><div class="modalActions"><button class="btn light" id="cancelMove">Cancel</button><button class="btn primary" id="confirmMove">Move</button></div></div></div>
 <div id="noteModal" class="modal"><div class="modalBox"><h3 id="noteTitle">Notes</h3><p id="noteHelp">Write a note for this person.</p><textarea id="noteText" class="noteArea" placeholder="Write a note..."></textarea><div class="modalActions"><button class="btn light" id="cancelNote">Cancel</button><button class="btn primary" id="saveNote">Save note</button></div></div></div>
 <script>
-  const API_URL = "https://script.google.com/macros/s/AKfycbycZaJ0zeZvKRpN1IgghoTltS00-yYP3b-rPaVnw0CQ73_n0Iks4yqIfvYuVzpLVrHh/exec";
+  const API_URL = "https://script.google.com/macros/s/AKfycbxDsaLBb0W026fxrGbvIjN8qr-dd0JFxJGUNbJ1uiqijgJL2sRxO6tR00LNyNI0_2_S/exec";
   const STORAGE_KEY = "event-checkin-waiting-v4";
   let people = [];
   let localWaiting = JSON.parse(localStorage.getItem(STORAGE_KEY) || "[]");
